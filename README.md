@@ -7,7 +7,7 @@ ct4102-unreal-mechanics-brandon-toews created by GitHub Classroom
 ### 🚀 Play [Demo](https://github.com/brandon-toews/prog-design-patterns.app)
 (Had to compile demo to wasm using Unreal Engine 4.26 built from source so the shaders didn't turn out right)
 
-**Player Controls:** \ 
+**Player Controls:**
 W - Forward \
 S - Backward \
 A - Strafe Left \
