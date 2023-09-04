@@ -1,37 +1,58 @@
 # ct4102-unreal-mechanics-brandon-toews
 ct4102-unreal-mechanics-brandon-toews created by GitHub Classroom
 
-Programming and Algorithms Unreal Project 
-Name: Brandon Toews
+## Programming and Algorithms Unreal Project
+**Name:** Brandon Toews
 
-Player Controls: 
-W - Forward S - Backward A - Strafe Left D - Strafe Right
+### 🚀 Play [Demo](https://brandon-toews.github.io/star-map-nav.app/)
 
-Mouse controls - Look Up/Down/Left/Right
+**Camera Controls:** \
+W - Forward \
+S - Backward \
+A - Strafe Left \
+D - Strafe Right \
+E - Up \
+Q - Down 
 
-Space Bar - Jump
-Right and Left Shift - Run
-Left Mouse Button - Fire Bullet
+Z - Look Left \
+X - Look Right
+
+R - Look Up \
+F - Look Down
+
+Esc - Escape Program
+
+Space Bar - Reset Star Configuration
+
+**Player Controls:** \ 
+W - Forward \
+S - Backward \
+A - Strafe Left \
+D - Strafe Right
+
+Mouse - Look Up/Down/Left/Right
+
+Space Bar - Jump \
+Right/Left Shift - Run \
+Left Mouse Button - Fire Bullet \
 
 Esc - Quit Game
 
-Game Programming Design Mechanics
-1. Command Design Pattern (C++)
-  Created C++ classes that inherit from UObject class. Three command child classes(Jump, Run and Fire) inherit from a base command class. Command objects
-  are created by the level blueprint based on keyboard and mouse inputs. These command objects then go on to execute the specific command they were designed
-  for.
+## Game Programming Design Mechanics
+### 1. Command Design Pattern (C++)
+  Created C++ classes that inherit from UObject class. Three command child classes(Jump, Run and Fire) inherit from a base command class. Command objects   are created by the level blueprint based on keyboard and mouse inputs. These command objects then go on to execute the specific command they were         designed for.
 
-2. State Machine Design Pattern (C++)
+### 2. State Machine Design Pattern (C++)
   Created C++ state classes are that inherit from UObject class and are managed by a StateManager class that inherits from Actor component class. The
   StateManager actor component object is created and attached to the enemy character class. The StateManager component then creates the three different
   state objects, switches the current state based on certain conditions and runs the current state.
 
-3. Object Pool Design Pattern (Blueprints)
+### 3. Object Pool Design Pattern (Blueprints)
   Created Blueprint BulletPool class actor component that attaches to actors and created a set number of bullets from the blueprint bullet class. The
   bulletpool than attaches the created bullets to the character and when the chsaracter's fire method is invoked it uses the bullets from the bullet pool.
   If the bullet pool becomes empty then the player must wait for it to refill before firing more bullets.
 
-4. Prototype Design Pattern (Blueprints)
+### 4. Prototype Design Pattern (Blueprints)
   Created Blueprint spawn classes that spawn different enemy characters from blueprint child enemy character classes.
   
   One type of spawn class has a public variable that can be set in the unreal inspector for each instance that stores a specific enemy character class. 
