@@ -7,24 +7,6 @@ ct4102-unreal-mechanics-brandon-toews created by GitHub Classroom
 ### 🚀 Play [Demo](https://github.com/brandon-toews/prog-design-patterns.app)
 (Had to compile demo to wasm using Unreal Engine 4.26 built from source so the shaders didn't turn out right)
 
-**Camera Controls:** \
-W - Forward \
-S - Backward \
-A - Strafe Left \
-D - Strafe Right \
-E - Up \
-Q - Down 
-
-Z - Look Left \
-X - Look Right
-
-R - Look Up \
-F - Look Down
-
-Esc - Escape Program
-
-Space Bar - Reset Star Configuration
-
 **Player Controls:** \ 
 W - Forward \
 S - Backward \
@@ -35,7 +17,7 @@ Mouse - Look Up/Down/Left/Right
 
 Space Bar - Jump \
 Right/Left Shift - Run \
-Left Mouse Button - Fire Bullet \
+Left Mouse Button - Fire Bullet
 
 Esc - Quit Game
 
