@@ -4,6 +4,8 @@ ct4102-unreal-mechanics-brandon-toews created by GitHub Classroom
 ## Programming and Algorithms Unreal Project
 **Name:** Brandon Toews
 
+C# Scripts are located in the [Source/UnrealMechanics](Source/UnrealMechanics) folder of this repo.
+
 ### 🚀 Play [Demo](https://brandon-toews.github.io/prog-design-patterns.app/)
 (Had to compile demo to WASM using Unreal Engine 4.28 built from source so the shaders didn't turn out right)
 
